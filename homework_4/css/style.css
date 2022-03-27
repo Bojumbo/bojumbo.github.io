@@ -205,4 +205,12 @@ footer {
     .planet {
         width: 98%;
     }
+
+    input {
+        width: 98%;
+    }
+
+    .btn_form {
+        width: 98%;
+    }
 }
