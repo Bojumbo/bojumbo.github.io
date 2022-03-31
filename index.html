@@ -4,21 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Portfolio</title>
+    <title>Bojumbo portfolio</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="link">
-            <img src="img/Знімок екрана 2022-03-26 214106.jpg" alt="2-3 урок">
-            <h2>Homework 2-3 lesons</h2>
-            <a class="btn" href="homework_2_3/index.html">Go to site</a>
+    <header>
+        <div class="container">
+            <div class="header_menu">
+                <div class="logo">
+                    <img src="assets/img/logo1.png" alt="Bojumbo">
+                </div>
+                <div class="menu">
+                    <a class="link" href="#more_about">About me</a>
+                    <a class="link" href="#skill_ba">My skills</a>
+                    <a class="link" href="#portfolios">My portfolio</a>
+                    <a class="link" href="#sec_contacts">Contacts</a>
+                </div>
+            </div>
         </div>
-        <div class="link">
-            <img src="img/Знімок екрана 2022-03-26 214016.jpg" alt="4 урок">
-            <h2>Homework 4 leson + ADAPTIVE</h2>
-            <a class="btn" href="homework_4/index.html">Go to site</a>
+    </header>
+    <section class="about_section" id="about_section">
+        <div class="container">
+            <div class="about_me">
+                <div class="about">
+                    <h1>Bogdan Brodiak</h1>
+                    <h2 class="h2">I am Junior WEB Developer</h2>
+                    <h3 class="h3">Beginner website builder!</h3>
+                    <a class="more_btn" href="#">More about me</a>
+                </div>
+                <div class="me">
+                    <img class="me_img" src="assets/img/me.png" alt="me">
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <section class="more_about" id="more_about">
+        <div class="container">
+            <h2 class="h2">I am a student of Ivan F. University of Lviv.</h2>
+            <div class="interests">
+                <div class="yourself">
+                    <h3>A little bit about yourself</h3>
+                    <img class="card" src="assets/img/card1.png" alt="card1">
+                    <p>Good day, my name is Bogdan Brodiak
+                        I do web development. I do website development and website development. I create an adaptive layout, so the site turns out to be beautiful on any device, be it a computer, laptop or phone!</p>
+                </div>
+                <div class="yourself">
+                    <h3>Knowledge and Skills</h3>
+                    <img class="card" src="assets/img/card2.png" alt="card2">
+                    <p>I know such markup languages: HTML(5), CSS(3) style sheets.
+                        I know how to make responsive websites for tablets and mobile devices, framework.</p>
+                </div>
+                <div class="yourself">
+                    <h3>Self-education</h3>
+                    <img class="card" src="assets/img/card3.png" alt="card3">
+                    <p>Online courses, video courses, books, documentation, forums, articles...</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="skill_bar" id="skill_bar">
+        <div class="container">
+            <div class="h2_skills">
+                <h2>My skills</h2>
+            </div>
+            <div class="skills">
+                <div class="skill">
+                    <h3>HTML5/CSS3</h3>
+                    <div class="progres_bar">
+                        <div class="progres">
+                            <h3 class="htmlcss">90%</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JS</h3>
+                    <div class="progres_bar">
+                        <div class="progres">
+                            <h3 class="js">10%</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>PHOTOSHOP</h3>
+                    <div class="progres_bar">
+                        <div class="progres">
+                            <h3 class="ps">99%</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolios" id="portfolios">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio"> 
+                <div class="site">
+                    <a href="homework_4/index.html" target="_blank"><img class="site_img" src="assets/img/portfolio1.jpg" alt=""></a>
+                    <h2>My first site</h2>
+                </div>
+                <div class="site">
+                    <a href="homework_4/index.html" target="_blank"><img class="site_img" src="assets/img/portfolio1.jpg" alt=""></a>
+                    <h2>My first site</h2>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="sec_contacts" id="sec_contacts">
+        <div class="container">
+            <h2>If you have any questions, I'll be happy to answer them!
+                <br>To do this, contact me in a way convenient for you and I will answer you as soon as possible!</h2>
+            <div class="contacts">
+                    <div class="contactss">
+                        <a class="contact" href="https://www.instagram.com/bogdanbrodiak/"><h2>My instagram @bogdanbrodiak</h2></a>
+                    </div>
+                    <div class="contactss">
+                        <a class="contact" href="https://t.me/bojumbo"><h2>My Telegram @Bojumbo</h2></a>
+                    </div>
+                    <div class="contactss">
+                        <a class="contact" href="tel:380964649569"><h2>+380964649569</h2></a>
+                    </div>
+                    <div class="contactss">
+                        <a class="contact" href="mailto:bogdanbrodiak2@gmail.com"><h2>bogdanbrodiak2@gmail.com</h2></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer >
+        <div class="container">
+            <h3 class="h3_footer">© 2016 Bogdan Brodiak. Professional website creation</h3>
+        </div>
+    </footer>
 </body>
 </html>
