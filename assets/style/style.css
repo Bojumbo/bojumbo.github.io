@@ -201,6 +201,7 @@ background: linear-gradient(141deg, rgba(14,14,14,1) 0%, rgba(96,96,96,1) 77%, r
     width: 550px;
     height: 270px;
     align-items: center;
+    color:white;
     
 }
 
@@ -209,6 +210,8 @@ background: linear-gradient(141deg, rgba(14,14,14,1) 0%, rgba(96,96,96,1) 77%, r
     margin: 0 auto;
     border: 2px rgb(77, 77, 77) solid;
     border-radius: 20px;
+    -webkit-box-shadow: 15px 19px 17px 8px #000000; 
+    box-shadow: 15px 19px 17px 8px #000000;
     transition:all 0.3s;
 }
 .site_img:hover {
