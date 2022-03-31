@@ -7,6 +7,10 @@ body {
     box-sizing: border-box;
 }
 
+.h_menu {
+    background-color: rgb(155, 155, 155);
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -27,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
 
+}
+
+.logo_img {
+    width: 50px;
 }
 
 .menu {
@@ -89,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .more_about {
-    
+    background-color: rgb(155, 155, 155);
 }
 
 h2 {
@@ -175,6 +183,10 @@ background: linear-gradient(141deg, rgba(14,14,14,1) 0%, rgba(96,96,96,1) 77%, r
 }
 .ps:hover {
     color: white;
+}
+
+.portfolios {
+    background-color: rgb(155, 155, 155);
 }
 
 .portfolio {
