@@ -1,0 +1,265 @@
+body {
+    margin: 0 auto;
+    font-size: 15px; 
+    display: block;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.h_menu {
+    background-color: rgb(155, 155, 155);
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.logo {
+
+}
+
+.logo_img {
+    width: 50px;
+}
+
+.menu {
+    
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-right: 15px;
+    transition: all 0.2s;
+}
+.link:hover {
+    border-bottom: 2px black solid;
+}
+
+.about_section {
+    background-color: gray;background: rgb(14,14,14);
+    background: linear-gradient(141deg, rgba(14,14,14,1) 0%, rgba(96,96,96,1) 77%, rgba(177,177,177,1) 100%);
+}
+
+.about_me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.about {
+    
+}
+
+.h2 {
+    margin-top: 15px;
+}
+
+.h3 {
+    margin-bottom: 80px;
+}
+
+.more_btn {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    background-color: rgb(69, 69, 69);
+    padding: 10px 20px;
+    border: 2px black solid;
+    border-radius: 100px;
+    transition: all 0.3s;
+}
+
+.more_btn:hover {
+    background-color: black;
+}
+
+.me_img {
+    width: 230px;
+}
+
+.more_about {
+    background-color: rgb(155, 155, 155);
+}
+
+h2 {
+    text-align: center;
+}
+
+.interests {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.yourself {
+   width: 290px;
+}
+
+.card {
+    width: 60px;
+    margin-top: 20px;
+}
+
+.skill_bar {
+    background: rgb(14,14,14);
+background: linear-gradient(141deg, rgba(14,14,14,1) 0%, rgba(96,96,96,1) 77%, rgba(177,177,177,1) 100%);
+}
+
+.h2_skills {
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.skill {
+    width: 350px;
+    text-align: center;
+}
+
+.progres_bar {
+    width: 100%;
+    height: 30px;
+    border: 2px black solid;
+    margin-top: 15px;
+}
+
+.htmlcss {
+    width: 90%;
+    height: 24px;
+    margin: 3px 2px;
+    background-color: black;
+    color:black;
+    transition:all 0.3s;
+}
+.htmlcss:hover {
+    color: white;
+}
+
+.js {
+    width: 10%;
+    height: 24px;
+    margin: 3px 2px;
+    background-color: black;
+    color:black;
+    transition:all 0.3s;
+}
+.js:hover {
+    color: white;
+}
+
+.ps {
+    width: 99%;
+    height: 24px;
+    margin: 3px 2px;
+    background-color: black;
+    color:black;
+    transition:all 0.3s;
+}
+.ps:hover {
+    color: white;
+}
+
+.portfolios {
+    background-color: rgb(155, 155, 155);
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.site {
+    width: 550px;
+    height: 270px;
+    align-items: center;
+    color:white;
+    
+}
+
+.site_img {
+    width: 500px;
+    margin: 0 auto;
+    border: 2px rgb(77, 77, 77) solid;
+    border-radius: 20px;
+    -webkit-box-shadow: 15px 19px 17px 8px #000000; 
+    box-shadow: 15px 19px 17px 8px #000000;
+    transition:all 0.3s;
+}
+.site_img:hover {
+    width: 550px;
+    border: 4px rgb(0, 0, 0) solid;
+}
+
+.sec_contacts {
+    background: rgb(14,14,14);
+background: linear-gradient(141deg, rgba(14,14,14,1) 0%, rgba(96,96,96,1) 77%, rgba(177,177,177,1) 100%);
+    padding: 30px;
+}
+
+.contacts {
+    
+}
+
+.contactss {
+    width: 500px;
+    border: 2px black solid;
+    margin: 20px auto;
+    border-radius: 100px;
+    transition:all 0.3s;
+    padding: 10px 20px;
+}
+.contactss:hover {
+    background-color: black;
+}
+
+.contact {
+    text-decoration: none;
+    color: black;
+    transition:all 0.3s;
+}
+.contact:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    vertical-align: middle;
+}
+
+.h3_footer {
+    
+    /* margin-bottom: 20px; */
+    color: white;
+}
