@@ -320,4 +320,10 @@ footer {
     .contactss {
         width: 96%;
     }
+    .me_img {
+        display: none;
+    }
+    .about_me {
+        padding-bottom: 25px;
+    }
 }
